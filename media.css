@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) 
+{
+    .main-div .cover .sidebar {
+            width: 30%;
+    height: 67vh;
+    }
+    .main-div .cover .sidebar .img-cont {
+        width: 91%;
+        height: 172px;
+    }
+    .main-div .cover .sidebar .img-cont img {
+        width: 66%;
+    }
+    .main-div .cover .hdg h1 {
+    font-size: 1.4em;
+    margin: 29px 0px;
+    }
+    .main-div .pg1 .nav h2 {
+    margin-right: 0px;
+    }
+    .main-div .pg1 h3    {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    .main-div .cover .home-contant {
+        display: none;
+    }
+    .main-div .cover .sidebar {
+    width: 47%;
+    height: 44vh;
+    margin-right: 12px;
+    }
+    .main-div .cover .sidebar .img-cont {
+    width: 84%;
+    height: 139px;
+     }
+     .main-div .cover .sidebar .img-cont img {
+    width: 66%;
+    }
+    .main-div .cover .hdg h1 {
+    font-size: 1.1em;
+    margin: 29px 0px;
+    }
+    .main-div .cover .hdg p {
+    font-weight: 100;
+    font-size: 0.8em;
+    }
+    .main-div .pg1 .nav h2 {
+    margin-right: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    .main-div .pg1 .nav .img img
+    {
+        width: 64%;
+    }
+    .main-div .pg1 h3 {
+    width: 70%;
+    margin-top: 27px;
+    font-size: 13px;
+    }
+    .main-div .pg1 .nav .heading{
+        width: 100%;
+    }
+    #customers{
+        font-size: 6px;
+        padding: 8px 0px;
+    }
+
+}

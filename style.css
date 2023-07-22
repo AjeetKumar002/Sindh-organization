@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div {
+    width: 100%;
+}
+
+.main-div .cover {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/sindhi-ajrak-pattern-traditional-background-38813003.webp);
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 1px 2px 2px #e5e5e5;
+
+}
+
+
+.main-div .cover .sidebar {
+    background-color: #fff;
+    width: 25%;
+    height: 90vh;
+    margin-right: 28px;
+}
+
+.main-div .cover .sidebar .img-cont{
+    width: 248px;
+    margin: auto;
+    height: 227px;
+    background-color: navy;
+    display: flex;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.main-div .cover .sidebar .img-cont img {
+    margin: auto;
+    width: 184px;
+    /* border: 1px solid black; */
+}
+
+.main-div .cover .hdg {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+}
+
+.main-div .cover .hdg h1 {
+    font-size: 1.8em;
+    margin: 59px 0px;
+}
+
+.main-div .cover .hdg p {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.main-div .pg1 {
+    width: 100%;
+    height: 120vh;
+    margin-top: 30px;
+}
+
+.main-div .pg1 .nav {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.main-div .pg1 .nav .heading{
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.main-div .pg1 .nav h2{
+    margin-right: 62px;
+}
+
+.main-div .pg1 .nav .img {
+    /* border: 1px solid red; */
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-div .pg1 .nav .img img {
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.main-div .pg1 h3 {
+    border: 1px solid black;
+    padding: 14px 20px;
+    /* display: inline-block; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 32%;
+}
+
+.main-div .pg1 .table {
+    width: 100%;
+    margin: 51px 0px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  #customers td, #customers li {
+    list-style: none;
+  }
+
+  #customers td, #customers  a {
+    text-decoration: none;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  #customers tr:hover {background-color: #ddd;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .main-div .pg1 .intro {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .main-div .pg1 .intro h2 {
+    margin: 15px 0px;
+  }
+
+  .main-div .pg1 .intro p {
+  text-align: justify;
+  font-size: 1.2em;
+  } 
+
+  .main-div .cover .home-contant{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 70%;
+  flex-direction: column;
+    color:  #d19931;
+    font-size: 3em;
+  }
+
+
+
+  .main-div .pg1 .intro p span li {
+    list-style: none;
+  }
